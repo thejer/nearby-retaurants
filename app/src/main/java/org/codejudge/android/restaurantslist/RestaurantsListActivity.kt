@@ -1,8 +1,10 @@
 package org.codejudge.android.restaurantslist
 
+import android.content.Context
 import android.os.Bundle
 import android.view.View
 import android.view.inputmethod.EditorInfo
+import android.view.inputmethod.InputMethodManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.widget.addTextChangedListener
 import androidx.databinding.DataBindingUtil
@@ -31,6 +33,7 @@ class RestaurantsListActivity : AppCompatActivity() {
         binding.lifecycleOwner = this
 
         binding.restaurantsRecyclerview.adapter = RestaurantsListAdapter()
+        hideKeyBoard()
         viewModel.getAllRestaurants()
 
         viewModel.errorMessage.observe(this, {
@@ -56,6 +59,15 @@ class RestaurantsListActivity : AppCompatActivity() {
                 }
             }
             false
+        }
+    }
+
+
+    fun hideKeyBoard() {
+        val view = currentFocus
+        if (view != null) {
+            val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager
+            imm.hideSoftInputFromWindow(view.windowToken, 0)
         }
     }
 
