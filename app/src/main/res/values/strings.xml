@@ -4,4 +4,7 @@
     <string name="open">• OPEN</string>
     <string name="closed">• CLOSED</string>
     <string name="retry">Retry</string>
+    <string name="star_rating">Star Rating</string>
+    <string name="restaurant_name">Restaurant name</string>
+    <string name="restaurant_name_text">Slay Coffe and Kings within</string>
 </resources>

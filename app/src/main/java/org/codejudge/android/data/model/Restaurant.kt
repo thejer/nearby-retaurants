@@ -13,7 +13,7 @@ data class Restaurant(
     @SerializedName("permanently_closed")
     val permanentlyClosed: Boolean,
     @SerializedName("opening_hours")
-    val openingHours: OpeningHours,
+    val openingHours: OpeningHours?,
     @SerializedName("price_level")
     val priceLevel: Int,
     @SerializedName("rating")

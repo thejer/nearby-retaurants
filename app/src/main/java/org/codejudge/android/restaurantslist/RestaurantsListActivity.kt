@@ -2,8 +2,9 @@ package org.codejudge.android.restaurantslist
 
 import android.os.Bundle
 import android.view.View
+import android.view.inputmethod.EditorInfo
 import androidx.appcompat.app.AppCompatActivity
-import androidx.appcompat.widget.SearchView
+import androidx.core.widget.addTextChangedListener
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
 import com.google.android.material.snackbar.Snackbar
@@ -12,9 +13,10 @@ import org.codejudge.android.R
 import org.codejudge.android.databinding.ActivityRestaurantsBinding
 import javax.inject.Inject
 
+
 class RestaurantsListActivity : AppCompatActivity() {
 
-    lateinit var binding: ActivityRestaurantsBinding
+    private lateinit var binding: ActivityRestaurantsBinding
 
     @Inject
     lateinit var viewModelFactory: ViewModelProvider.Factory
@@ -37,23 +39,24 @@ class RestaurantsListActivity : AppCompatActivity() {
             }
         })
 
-        binding.editSearch.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
-            override fun onQueryTextSubmit(query: String?): Boolean {
-                if (!query.isNullOrBlank()) {
-                    viewModel.searchRestaurants(query)
-                }
-                return false
-            }
 
-            override fun onQueryTextChange(newText: String?): Boolean {
-                if (newText.isNullOrBlank()) {
+        binding.editSearch.addTextChangedListener {
+            if (it.isNullOrBlank()) {
                     viewModel.getAllRestaurants()
                 } else {
-                    viewModel.searchRestaurants(newText)
+                    viewModel.searchRestaurants(it.toString())
                 }
-                return false
+        }
+
+        binding.editSearch.setOnEditorActionListener { v, actionId, event ->
+            if (actionId == EditorInfo.IME_ACTION_SEARCH) {
+                val query = v.text.toString()
+                if (query.isNotBlank()) {
+                    viewModel.searchRestaurants(query)
+                }
             }
-        })
+            false
+        }
     }
 
     private fun showSnackbar(snackbarText: String, view: View) {
