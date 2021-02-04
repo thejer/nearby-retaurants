@@ -8,13 +8,14 @@
             name="viewModel"
             type="org.codejudge.android.restaurantslist.RestaurantsListViewModel" />
     </data>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         tools:context=".restaurantslist.RestaurantsListActivity">
-
-
 
         <EditText
             android:hint="@string/restaurant_name"
@@ -64,5 +65,7 @@
             />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
 
 </layout>
