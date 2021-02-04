@@ -41,7 +41,7 @@ class RestaurantsListAdapter: ListAdapter<Restaurant, RestaurantsListAdapter.Res
         fun bind(item: Restaurant) {
             val context = binding.root.context
             binding.restaurant = item
-            val isOpen = if (item.businessStatus == "OPERATIONAL") item.openingHours?.openNow?: false else false
+            val isOpen = item.businessStatus == "OPERATIONAL" && item.openingHours?.openNow?: false
                 binding.openStatus.apply {
                     if (isOpen) {
                         text = context.getString(R.string.open)

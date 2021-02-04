@@ -63,7 +63,7 @@ class RestaurantsListActivity : AppCompatActivity() {
     }
 
 
-    fun hideKeyBoard() {
+    private fun hideKeyBoard() {
         val view = currentFocus
         if (view != null) {
             val imm = getSystemService(Context.INPUT_METHOD_SERVICE) as InputMethodManager

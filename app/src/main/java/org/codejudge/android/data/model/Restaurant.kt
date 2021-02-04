@@ -33,6 +33,6 @@ data class Restaurant(
         get() = rating.toString()
 
     fun getRestaurantImage(): String {
-        return "${Constants.IMAGE_BASE_URL}&photoreference=${photos[0].photoReference}&key=${Constants.AUTH_KEY}"
+        return String.format("%s%s&key=%s", Constants.IMAGE_BASE_URL, photos[0].photoReference, Constants.AUTH_KEY)
     }
 }
