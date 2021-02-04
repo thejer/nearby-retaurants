@@ -48,7 +48,7 @@ class RestaurantsListActivity : AppCompatActivity() {
                 }
         }
 
-        binding.editSearch.setOnEditorActionListener { v, actionId, event ->
+        binding.editSearch.setOnEditorActionListener { v, actionId, _ ->
             if (actionId == EditorInfo.IME_ACTION_SEARCH) {
                 val query = v.text.toString()
                 if (query.isNotBlank()) {
