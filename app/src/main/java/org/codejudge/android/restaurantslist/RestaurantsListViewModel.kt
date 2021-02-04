@@ -32,6 +32,7 @@ class RestaurantsListViewModel @Inject constructor(
             when (val result = restaurantsRepository.getAllRestaurants()) {
                 is Result.Success -> {
                     _isLoading.value = false
+                    result.data.results.removeAt(0)
                     _restaurants.value = result.data.results
                 }
                 is Result.Error -> {
