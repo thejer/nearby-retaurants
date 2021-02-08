@@ -1,0 +1,4 @@
+#Mon Feb 08 07:12:22 WAT 2021
+base.0=/Users/compton/AndroidStudioProjects/test-88-q-561e733fcf7f42ccbde66942020f0daa--thejer-android-min15-target28-starter/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

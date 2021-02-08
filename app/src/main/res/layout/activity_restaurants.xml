@@ -6,7 +6,7 @@
     <data>
         <variable
             name="viewModel"
-            type="org.codejudge.android.restaurantslist.RestaurantsListViewModel" />
+            type="io.budge.nearbyrestaurants.restaurantslist.RestaurantsListViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin1" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="03c25910-88e2-490d-a14d-da2d8a12dba6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/io/budge/nearbyrestaurants/data/model/APIResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/codejudge/android/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/budge/nearbyrestaurants/App.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/codejudge/android/data/api/IRestaurantsRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/budge/nearbyrestaurants/data/api/IRestaurantsRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/codejudge/android/data/api/RestaurantsApiService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/budge/nearbyrestaurants/data/api/RestaurantsApiService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/codejudge/android/data/api/RestaurantsRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/budge/nearbyrestaurants/data/api/RestaurantsRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/codejudge/android/data/model/APIResponse.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/codejudge/android/data/model/OpeningHours.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/budge/nearbyrestaurants/data/model/OpeningHours.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/codejudge/android/data/model/Photo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/budge/nearbyrestaurants/data/model/Photo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/codejudge/android/data/model/Restaurant.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/budge/nearbyrestaurants/data/model/Restaurant.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/codejudge/android/di/APIServiceModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/budge/nearbyrestaurants/di/APIServiceModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/codejudge/android/di/AppComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/budge/nearbyrestaurants/di/AppComponent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/codejudge/android/di/AppModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/budge/nearbyrestaurants/di/AppModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/codejudge/android/di/AppViewModelFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/budge/nearbyrestaurants/di/AppViewModelFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/codejudge/android/di/ViewModelKey.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/budge/nearbyrestaurants/di/ViewModelKey.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/codejudge/android/di/ViewModelModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/budge/nearbyrestaurants/di/ViewModelModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/codejudge/android/restaurantslist/RestaurantsListActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/budge/nearbyrestaurants/restaurantslist/RestaurantsListActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/codejudge/android/restaurantslist/RestaurantsListAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/budge/nearbyrestaurants/restaurantslist/RestaurantsAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/codejudge/android/restaurantslist/RestaurantsListViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/budge/nearbyrestaurants/restaurantslist/RestaurantsListViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/codejudge/android/utils/APIUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/budge/nearbyrestaurants/utils/APIUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/codejudge/android/utils/BindingAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/budge/nearbyrestaurants/utils/BindingAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/codejudge/android/utils/Constants.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/budge/nearbyrestaurants/utils/Constants.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/org/codejudge/android/utils/Result.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/io/budge/nearbyrestaurants/utils/Result.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_restaurants.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_restaurants.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/restaurant_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/restaurant_item.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[R3CN60DY2PX]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Kotlin Object" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ProjectId" id="1o02pyd0dY1QHypwLS2yEqL7MJE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ResourceManagerPrefKey.ResourceType" value="STRING" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android-custom-view/Users/compton/Library/Android/sdk/sources/android-30/android/widget/TextView.java_SELECTED" value="TextView" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="multi-representation-preview/Users/compton/Library/Android/sdk/sources/android-30/android/widget/TextView.java_selected" value="Custom views" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="org.codejudge.android.data.model" />
+      <recent name="org.codejudge.android.restaurantslist" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/org/codejudge/android" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="nearby_restaurants.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="03c25910-88e2-490d-a14d-da2d8a12dba6" name="Default Changelist" comment="" />
+      <created>1612409373571</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612409373571</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Commits cleanups">
+      <created>1612765604356</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612765604357</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commits cleanups" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commits cleanups" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="739" y="323" key="#com.intellij.ide.util.MemberChooser" timestamp="1612432732625">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="739" y="323" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1612432732625" />
+    <state x="625" y="336" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1612411756645">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="625" y="336" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1612411756645" />
+    <state x="698" y="354" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612424096235">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="698" y="354" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1612424096235" />
+    <state x="356" y="398" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1612415496917">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="356" y="398" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1612415496917" />
+    <state x="588" y="441" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1612447865133">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="588" y="441" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1200@0.0.1920.1200" timestamp="1612447865133" />
+    <state x="548" y="362" key="AndroidCreateResourceFileDialog" timestamp="1612442631426">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="548" y="362" key="AndroidCreateResourceFileDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1612442631426" />
+    <state x="782" y="402" key="AndroidCreateXmlResourceDialog" timestamp="1612447829652">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="782" y="402" key="AndroidCreateXmlResourceDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1612447829652" />
+    <state x="503" y="159" key="CommitChangelistDialog2" timestamp="1612765603974">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="503" y="159" key="CommitChangelistDialog2/0.0.1920.1200@0.0.1920.1200" timestamp="1612765603974" />
+    <state x="100" y="100" width="1720" height="1000" key="DiffContextDialog" timestamp="1612434838955">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="100" y="100" width="1720" height="1000" key="DiffContextDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1612434838955" />
+    <state width="1878" height="302" key="GridCell.Tab.0.bottom" timestamp="1612448775851">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="302" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1612448775851" />
+    <state width="1878" height="302" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1612447469010" />
+    <state width="1878" height="302" key="GridCell.Tab.0.center" timestamp="1612448775849">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="302" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1612448775849" />
+    <state width="1878" height="302" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1612447469008" />
+    <state width="1878" height="302" key="GridCell.Tab.0.left" timestamp="1612448775847">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="302" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1612448775847" />
+    <state width="1878" height="302" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1612447469007" />
+    <state width="1878" height="302" key="GridCell.Tab.0.right" timestamp="1612448775850">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state width="1878" height="302" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1612448775850" />
+    <state width="1878" height="302" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1612447469008" />
+    <state x="192" y="109" key="MergeDialog" timestamp="1612765473048">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="192" y="109" key="MergeDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1612765473048" />
+    <state x="596" y="368" key="MultipleFileMergeDialog" timestamp="1612765473109">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="596" y="368" key="MultipleFileMergeDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1612765473109" />
+    <state x="461" y="239" key="SettingsEditor" timestamp="1612415108916">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="461" y="239" key="SettingsEditor/0.0.1920.1200@0.0.1920.1200" timestamp="1612415108916" />
+    <state x="100" y="100" width="1720" height="1000" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1612434838961">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="100" y="100" width="1720" height="1000" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1612434838961" />
+    <state x="100" y="57" width="1720" height="1040" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1612434838963">
+      <screen x="0" y="23" width="1920" height="1177" />
+    </state>
+    <state x="100" y="57" width="1720" height="1040" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1920.1177@0.23.1920.1177" timestamp="1612434838963" />
+    <state x="618" y="221" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1612766211389">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="618" y="221" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1200@0.0.1920.1200" timestamp="1612766211389" />
+    <state x="652" y="326" width="888" height="548" key="find.popup" timestamp="1612450581421">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="652" y="326" width="888" height="548" key="find.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1612450581421" />
+    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup" timestamp="1612451172889">
+      <screen x="0" y="0" width="1920" height="1200" />
+    </state>
+    <state x="625" y="271" width="670" height="676" key="search.everywhere.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1612451172889" />
+  </component>
+</project>

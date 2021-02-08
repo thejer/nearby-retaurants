@@ -7,7 +7,7 @@
 
         <variable
             name="restaurant"
-            type="org.codejudge.android.data.model.Restaurant" />
+            type="io.budge.nearbyrestaurants.data.model.Restaurant" />
     </data>
 
     <com.google.android.material.card.MaterialCardView

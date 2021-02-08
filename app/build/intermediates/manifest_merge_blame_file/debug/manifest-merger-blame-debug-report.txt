@@ -1,0 +1,69 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:dist="http://schemas.android.com/apk/distribution"
+4    package="org.codejudge.android"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="15"
+9-->/Users/compton/AndroidStudioProjects/test-88-q-561e733fcf7f42ccbde66942020f0daa--thejer-android-min15-target28-starter/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->/Users/compton/AndroidStudioProjects/test-88-q-561e733fcf7f42ccbde66942020f0daa--thejer-android-min15-target28-starter/app/src/main/AndroidManifest.xml
+11
+12    <dist:module dist:instant="true" />
+12-->/Users/compton/AndroidStudioProjects/test-88-q-561e733fcf7f42ccbde66942020f0daa--thejer-android-min15-target28-starter/app/src/main/AndroidManifest.xml:6:5-40
+12-->/Users/compton/AndroidStudioProjects/test-88-q-561e733fcf7f42ccbde66942020f0daa--thejer-android-min15-target28-starter/app/src/main/AndroidManifest.xml:6:18-37
+13
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/compton/AndroidStudioProjects/test-88-q-561e733fcf7f42ccbde66942020f0daa--thejer-android-min15-target28-starter/app/src/main/AndroidManifest.xml:7:5-66
+14-->/Users/compton/AndroidStudioProjects/test-88-q-561e733fcf7f42ccbde66942020f0daa--thejer-android-min15-target28-starter/app/src/main/AndroidManifest.xml:7:22-64
+15
+16    <application
+16-->/Users/compton/AndroidStudioProjects/test-88-q-561e733fcf7f42ccbde66942020f0daa--thejer-android-min15-target28-starter/app/src/main/AndroidManifest.xml:9:5-24:19
+17        android:name="org.codejudge.android.App"
+17-->/Users/compton/AndroidStudioProjects/test-88-q-561e733fcf7f42ccbde66942020f0daa--thejer-android-min15-target28-starter/app/src/main/AndroidManifest.xml:10:9-28
+18        android:allowBackup="true"
+18-->/Users/compton/AndroidStudioProjects/test-88-q-561e733fcf7f42ccbde66942020f0daa--thejer-android-min15-target28-starter/app/src/main/AndroidManifest.xml:11:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.3.2] /Users/compton/.gradle/caches/transforms-2/files-2.1/0288a8aab631773614f54c3f4d4ca2e2/core-1.3.2/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/compton/AndroidStudioProjects/test-88-q-561e733fcf7f42ccbde66942020f0daa--thejer-android-min15-target28-starter/app/src/main/AndroidManifest.xml:12:9-43
+22        android:label="@string/app_name"
+22-->/Users/compton/AndroidStudioProjects/test-88-q-561e733fcf7f42ccbde66942020f0daa--thejer-android-min15-target28-starter/app/src/main/AndroidManifest.xml:13:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/Users/compton/AndroidStudioProjects/test-88-q-561e733fcf7f42ccbde66942020f0daa--thejer-android-min15-target28-starter/app/src/main/AndroidManifest.xml:14:9-54
+24        android:supportsRtl="true"
+24-->/Users/compton/AndroidStudioProjects/test-88-q-561e733fcf7f42ccbde66942020f0daa--thejer-android-min15-target28-starter/app/src/main/AndroidManifest.xml:15:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->/Users/compton/AndroidStudioProjects/test-88-q-561e733fcf7f42ccbde66942020f0daa--thejer-android-min15-target28-starter/app/src/main/AndroidManifest.xml:16:9-40
+27        <activity android:name="org.codejudge.android.restaurantslist.RestaurantsListActivity" >
+27-->/Users/compton/AndroidStudioProjects/test-88-q-561e733fcf7f42ccbde66942020f0daa--thejer-android-min15-target28-starter/app/src/main/AndroidManifest.xml:17:9-23:20
+27-->/Users/compton/AndroidStudioProjects/test-88-q-561e733fcf7f42ccbde66942020f0daa--thejer-android-min15-target28-starter/app/src/main/AndroidManifest.xml:17:19-74
+28            <intent-filter>
+28-->/Users/compton/AndroidStudioProjects/test-88-q-561e733fcf7f42ccbde66942020f0daa--thejer-android-min15-target28-starter/app/src/main/AndroidManifest.xml:18:13-22:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/Users/compton/AndroidStudioProjects/test-88-q-561e733fcf7f42ccbde66942020f0daa--thejer-android-min15-target28-starter/app/src/main/AndroidManifest.xml:19:17-69
+29-->/Users/compton/AndroidStudioProjects/test-88-q-561e733fcf7f42ccbde66942020f0daa--thejer-android-min15-target28-starter/app/src/main/AndroidManifest.xml:19:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/Users/compton/AndroidStudioProjects/test-88-q-561e733fcf7f42ccbde66942020f0daa--thejer-android-min15-target28-starter/app/src/main/AndroidManifest.xml:21:17-77
+31-->/Users/compton/AndroidStudioProjects/test-88-q-561e733fcf7f42ccbde66942020f0daa--thejer-android-min15-target28-starter/app/src/main/AndroidManifest.xml:21:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <provider
+35-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/compton/.gradle/caches/transforms-2/files-2.1/617230b61e1f80d1971938edd7214ff4/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+36            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+36-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/compton/.gradle/caches/transforms-2/files-2.1/617230b61e1f80d1971938edd7214ff4/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+37            android:authorities="org.codejudge.android.lifecycle-process"
+37-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/compton/.gradle/caches/transforms-2/files-2.1/617230b61e1f80d1971938edd7214ff4/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+38            android:exported="false"
+38-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/compton/.gradle/caches/transforms-2/files-2.1/617230b61e1f80d1971938edd7214ff4/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+39            android:multiprocess="true" />
+39-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/compton/.gradle/caches/transforms-2/files-2.1/617230b61e1f80d1971938edd7214ff4/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+40    </application>
+41
+42</manifest>
