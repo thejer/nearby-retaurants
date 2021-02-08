@@ -42,7 +42,6 @@ class RestaurantsListActivity : AppCompatActivity() {
             }
         })
 
-
         binding.editSearch.addTextChangedListener {
             if (it.isNullOrBlank()) {
                     viewModel.getAllRestaurants()
