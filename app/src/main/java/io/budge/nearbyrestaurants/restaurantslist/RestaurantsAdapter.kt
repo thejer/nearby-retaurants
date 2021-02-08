@@ -7,8 +7,8 @@ import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import io.budge.nearbyrestaurants.data.model.Restaurant
-import org.budge.nearbyrestaurants.R
-import org.budge.nearbyrestaurants.databinding.RestaurantItemBinding
+import io.budge.nearbyrestaurants.R
+import io.budge.nearbyrestaurants.databinding.RestaurantItemBinding
 
 class RestaurantsAdapter : ListAdapter<Restaurant, RestaurantsAdapter.RestaurantsViewHolder>(DiffCallback) {
 

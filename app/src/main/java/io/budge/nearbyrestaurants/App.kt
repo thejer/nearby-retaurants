@@ -2,6 +2,7 @@ package io.budge.nearbyrestaurants
 
 import android.app.Application
 import io.budge.nearbyrestaurants.di.AppComponent
+import io.budge.nearbyrestaurants.di.DaggerAppComponent
 
 
 class App : Application() {
@@ -11,7 +12,7 @@ class App : Application() {
     override fun onCreate() {
         super.onCreate()
 
-        component = _root_ide_package_.io.budge.nearbyrestaurants.di.DaggerAppComponent.builder()
+        component = DaggerAppComponent.builder()
                 .application(this)
                 .build()
     }

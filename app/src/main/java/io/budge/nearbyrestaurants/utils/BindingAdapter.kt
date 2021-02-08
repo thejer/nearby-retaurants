@@ -8,7 +8,7 @@ import coil.load
 import com.google.android.material.progressindicator.LinearProgressIndicator
 import io.budge.nearbyrestaurants.data.model.Restaurant
 import io.budge.nearbyrestaurants.restaurantslist.RestaurantsAdapter
-import org.budge.nearbyrestaurants.R
+import io.budge.nearbyrestaurants.R
 
 
 @BindingAdapter("isLoading")

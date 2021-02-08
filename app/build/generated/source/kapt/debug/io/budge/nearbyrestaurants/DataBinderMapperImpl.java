@@ -6,6 +6,8 @@ import android.view.View;
 import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
+import io.budge.nearbyrestaurants.databinding.ActivityRestaurantsBindingImpl;
+import io.budge.nearbyrestaurants.databinding.RestaurantItemBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
 import java.lang.Object;
@@ -16,10 +18,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import javax.annotation.Generated;
-import io.budge.nearbyrestaurants.databinding.ActivityRestaurantsBindingImpl;
-import io.budge.nearbyrestaurants.databinding.RestaurantItemBindingImpl;
-import io.budge.nearbyrestaurants.databinding.ActivityRestaurantsBindingImpl;
-import io.budge.nearbyrestaurants.databinding.RestaurantItemBindingImpl;
 
 @Generated("Android Data Binding")
 public class DataBinderMapperImpl extends DataBinderMapper {
@@ -30,8 +28,8 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(2);
 
   static {
-    INTERNAL_LAYOUT_ID_LOOKUP.put(org.budge.nearbyrestaurants.R.layout.activity_restaurants, LAYOUT_ACTIVITYRESTAURANTS);
-    INTERNAL_LAYOUT_ID_LOOKUP.put(org.budge.nearbyrestaurants.R.layout.restaurant_item, LAYOUT_RESTAURANTITEM);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(io.budge.nearbyrestaurants.R.layout.activity_restaurants, LAYOUT_ACTIVITYRESTAURANTS);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(io.budge.nearbyrestaurants.R.layout.restaurant_item, LAYOUT_RESTAURANTITEM);
   }
 
   @Override
@@ -113,8 +111,8 @@ public class DataBinderMapperImpl extends DataBinderMapper {
     static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(2);
 
     static {
-      sKeys.put("layout/activity_restaurants_0", org.budge.nearbyrestaurants.R.layout.activity_restaurants);
-      sKeys.put("layout/restaurant_item_0", org.budge.nearbyrestaurants.R.layout.restaurant_item);
+      sKeys.put("layout/activity_restaurants_0", io.budge.nearbyrestaurants.R.layout.activity_restaurants);
+      sKeys.put("layout/restaurant_item_0", io.budge.nearbyrestaurants.R.layout.restaurant_item);
     }
   }
 }

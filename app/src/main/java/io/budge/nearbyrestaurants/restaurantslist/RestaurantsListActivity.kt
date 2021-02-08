@@ -10,8 +10,9 @@ import androidx.core.widget.addTextChangedListener
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
 import com.google.android.material.snackbar.Snackbar
-import org.budge.nearbyrestaurants.R
-import org.budge.nearbyrestaurants.databinding.ActivityRestaurantsBinding
+import io.budge.nearbyrestaurants.App
+import io.budge.nearbyrestaurants.R
+import io.budge.nearbyrestaurants.databinding.ActivityRestaurantsBinding
 import javax.inject.Inject
 
 
@@ -24,7 +25,7 @@ class RestaurantsListActivity : AppCompatActivity() {
     private lateinit var viewModel: RestaurantsListViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        (applicationContext as _root_ide_package_.io.budge.nearbyrestaurants.App).component.inject(this)
+        (applicationContext as App).component.inject(this)
         viewModel = ViewModelProvider(this, viewModelFactory).get(RestaurantsListViewModel::class.java)
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_restaurants)

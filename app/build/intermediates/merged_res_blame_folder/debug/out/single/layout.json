@@ -1,10 +1,10 @@
 [
     {
-        "merged": "/Users/compton/AndroidStudioProjects/test-88-q-561e733fcf7f42ccbde66942020f0daa--thejer-android-min15-target28-starter/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_restaurants.xml",
-        "source": "/Users/compton/AndroidStudioProjects/test-88-q-561e733fcf7f42ccbde66942020f0daa--thejer-android-min15-target28-starter/app/src/main/res/layout/activity_restaurants.xml"
+        "merged": "/Users/compton/AndroidStudioProjects/nearby restaurants/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_restaurants.xml",
+        "source": "/Users/compton/AndroidStudioProjects/nearby restaurants/app/src/main/res/layout/activity_restaurants.xml"
     },
     {
-        "merged": "/Users/compton/AndroidStudioProjects/test-88-q-561e733fcf7f42ccbde66942020f0daa--thejer-android-min15-target28-starter/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/restaurant_item.xml",
-        "source": "/Users/compton/AndroidStudioProjects/test-88-q-561e733fcf7f42ccbde66942020f0daa--thejer-android-min15-target28-starter/app/src/main/res/layout/restaurant_item.xml"
+        "merged": "/Users/compton/AndroidStudioProjects/nearby restaurants/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/restaurant_item.xml",
+        "source": "/Users/compton/AndroidStudioProjects/nearby restaurants/app/src/main/res/layout/restaurant_item.xml"
     }
 ]

@@ -4,11 +4,8 @@ import dagger.internal.Factory;
 import dagger.internal.Preconditions;
 import io.budge.nearbyrestaurants.data.api.IRestaurantsRepository;
 import io.budge.nearbyrestaurants.data.api.RestaurantsApiService;
-
 import javax.annotation.Generated;
 import javax.inject.Provider;
-import org.budge.nearbyrestaurants.data.api.IRestaurantsRepository;
-import org.budge.nearbyrestaurants.data.api.RestaurantsApiService;
 
 @Generated(
     value = "dagger.internal.codegen.ComponentProcessor",

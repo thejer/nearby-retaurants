@@ -2,10 +2,8 @@ package io.budge.nearbyrestaurants.restaurantslist;
 
 import dagger.internal.Factory;
 import io.budge.nearbyrestaurants.data.api.IRestaurantsRepository;
-
 import javax.annotation.Generated;
 import javax.inject.Provider;
-import org.budge.nearbyrestaurants.data.api.IRestaurantsRepository;
 
 @Generated(
     value = "dagger.internal.codegen.ComponentProcessor",

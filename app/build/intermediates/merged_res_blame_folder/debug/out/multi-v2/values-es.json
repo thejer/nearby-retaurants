@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/compton/AndroidStudioProjects/test-88-q-561e733fcf7f42ccbde66942020f0daa--thejer-android-min15-target28-starter/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml",
+            "outputFile": "/Users/compton/AndroidStudioProjects/nearby restaurants/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml",
             "map": [
                 {
                     "source": "/Users/compton/.gradle/caches/transforms-2/files-2.1/41dc296c6028c81aec2c8b51b4cb9b6f/material-1.3.0-rc01/res/values-es/values-es.xml",

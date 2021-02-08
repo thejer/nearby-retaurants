@@ -6,20 +6,17 @@ import com.google.gson.Gson;
 import dagger.internal.DoubleCheck;
 import dagger.internal.MapProviderFactory;
 import dagger.internal.Preconditions;
+import io.budge.nearbyrestaurants.data.api.IRestaurantsRepository;
+import io.budge.nearbyrestaurants.data.api.RestaurantsApiService;
+import io.budge.nearbyrestaurants.restaurantslist.RestaurantsListActivity;
+import io.budge.nearbyrestaurants.restaurantslist.RestaurantsListActivity_MembersInjector;
+import io.budge.nearbyrestaurants.restaurantslist.RestaurantsListViewModel;
+import io.budge.nearbyrestaurants.restaurantslist.RestaurantsListViewModel_Factory;
 import java.util.Map;
 import javax.annotation.Generated;
 import javax.inject.Provider;
-
-import io.budge.nearbyrestaurants.data.api.IRestaurantsRepository;
-import io.budge.nearbyrestaurants.data.api.RestaurantsApiService;
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
-import org.budge.nearbyrestaurants.data.api.IRestaurantsRepository;
-import org.budge.nearbyrestaurants.data.api.RestaurantsApiService;
-import org.budge.nearbyrestaurants.restaurantslist.RestaurantsListActivity;
-import io.budge.nearbyrestaurants.restaurantslist.RestaurantsListActivity_MembersInjector;
-import org.budge.nearbyrestaurants.restaurantslist.RestaurantsListViewModel;
-import io.budge.nearbyrestaurants.restaurantslist.RestaurantsListViewModel_Factory;
 
 @Generated(
     value = "dagger.internal.codegen.ComponentProcessor",

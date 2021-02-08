@@ -4,7 +4,7 @@
     "type": "MERGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "org.codejudge.android",
+  "applicationId": "io.budge.nearbyrestaurants",
   "variantName": "debug",
   "elements": [
     {

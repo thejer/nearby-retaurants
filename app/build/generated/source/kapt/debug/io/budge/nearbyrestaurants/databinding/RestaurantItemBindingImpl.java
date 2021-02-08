@@ -1,15 +1,12 @@
 package io.budge.nearbyrestaurants.databinding;
-import org.budge.nearbyrestaurants.R;
+import io.budge.nearbyrestaurants.R;
 import io.budge.nearbyrestaurants.BR;
-
-import org.budge.nearbyrestaurants.databinding.RestaurantItemBinding;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.view.View;
 @SuppressWarnings("unchecked")
 @javax.annotation.Generated("Android Data Binding")
-public class RestaurantItemBindingImpl extends RestaurantItemBinding {
+public class RestaurantItemBindingImpl extends RestaurantItemBinding  {
 
     @Nullable
     private static final androidx.databinding.ViewDataBinding.IncludedLayouts sIncludes;
@@ -74,7 +71,7 @@ public class RestaurantItemBindingImpl extends RestaurantItemBinding {
     public boolean setVariable(int variableId, @Nullable Object variable)  {
         boolean variableSet = true;
         if (BR.restaurant == variableId) {
-            setRestaurant((org.budge.nearbyrestaurants.data.model.Restaurant) variable);
+            setRestaurant((io.budge.nearbyrestaurants.data.model.Restaurant) variable);
         }
         else {
             variableSet = false;
@@ -82,7 +79,7 @@ public class RestaurantItemBindingImpl extends RestaurantItemBinding {
             return variableSet;
     }
 
-    public void setRestaurant(@Nullable org.budge.nearbyrestaurants.data.model.Restaurant Restaurant) {
+    public void setRestaurant(@Nullable io.budge.nearbyrestaurants.data.model.Restaurant Restaurant) {
         this.mRestaurant = Restaurant;
         synchronized(this) {
             mDirtyFlags |= 0x1L;
@@ -109,7 +106,7 @@ public class RestaurantItemBindingImpl extends RestaurantItemBinding {
         java.lang.String restaurantVicinity = null;
         java.lang.String RestaurantName1 = null;
         java.lang.String restaurantRestaurantImage = null;
-        org.budge.nearbyrestaurants.data.model.Restaurant restaurant = mRestaurant;
+        io.budge.nearbyrestaurants.data.model.Restaurant restaurant = mRestaurant;
 
         if ((dirtyFlags & 0x3L) != 0) {
 
@@ -131,7 +128,7 @@ public class RestaurantItemBindingImpl extends RestaurantItemBinding {
             // api target 1
 
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.address, restaurantVicinity);
-            org.budge.nearbyrestaurants.utils.BindingAdapterKt.bindImageView(this.foodImage, restaurantRestaurantImage);
+            io.budge.nearbyrestaurants.utils.BindingAdapterKt.bindImageView(this.foodImage, restaurantRestaurantImage);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.rating, restaurantRatingString);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.restaurantName, RestaurantName1);
         }

@@ -1,56 +1,50 @@
-org/codejudge/android/helper/package-info.java
- org.codejudge.android.helper.package-info
-org/codejudge/android/di/APIServiceModule_ProvideRestaurantsServiceHttpClientFactory.java
- org.codejudge.android.di.APIServiceModule_ProvideRestaurantsServiceHttpClientFactory
-org/codejudge/android/di/AppViewModelFactory_Factory.java
- org.codejudge.android.di.AppViewModelFactory_Factory
-org/codejudge/android/helper/ConfigHelper.java
- org.codejudge.android.helper.ConfigHelper
-org/codejudge/android/package-info.java
- org.codejudge.android.package-info
+io/budge/nearbyrestaurants/di/APIServiceModule_ProvideLoggingInterceptorFactory.java
+ io.budge.nearbyrestaurants.di.APIServiceModule_ProvideLoggingInterceptorFactory
+io/budge/nearbyrestaurants/DataBinderMapperImpl.java
+ io.budge.nearbyrestaurants.DataBinderMapperImpl
+ io.budge.nearbyrestaurants.DataBinderMapperImpl$InnerBrLookup
+ io.budge.nearbyrestaurants.DataBinderMapperImpl$InnerLayoutIdLookup
+io/budge/nearbyrestaurants/data/api/RestaurantsRepository_Factory.java
+ io.budge.nearbyrestaurants.data.api.RestaurantsRepository_Factory
+io/budge/nearbyrestaurants/di/APIServiceModule_ProvideGenericOkHttpClientFactory.java
+ io.budge.nearbyrestaurants.di.APIServiceModule_ProvideGenericOkHttpClientFactory
+io/budge/nearbyrestaurants/databinding/RestaurantItemBindingImpl.java
+ io.budge.nearbyrestaurants.databinding.RestaurantItemBindingImpl
+io/budge/nearbyrestaurants/databinding/ActivityRestaurantsBindingImpl.java
+ io.budge.nearbyrestaurants.databinding.ActivityRestaurantsBindingImpl
+io/budge/nearbyrestaurants/di/APIServiceModule_ProvideGsonFactory.java
+ io.budge.nearbyrestaurants.di.APIServiceModule_ProvideGsonFactory
 androidx/databinding/DataBinderMapperImpl.java
  androidx.databinding.DataBinderMapperImpl
-org/codejudge/android/di/APIServiceModule_ProvideGenericOkHttpClientFactory.java
- org.codejudge.android.di.APIServiceModule_ProvideGenericOkHttpClientFactory
-androidx/databinding/DataBindingComponent.java
- androidx.databinding.DataBindingComponent
+io/budge/nearbyrestaurants/di/APIServiceModule_ProvideGsonConverterFactoryFactory.java
+ io.budge.nearbyrestaurants.di.APIServiceModule_ProvideGsonConverterFactoryFactory
 androidx/databinding/library/baseAdapters/BR.java
  androidx.databinding.library.baseAdapters.BR
-org/codejudge/android/databinding/ActivityRestaurantsBinding.java
- org.codejudge.android.databinding.ActivityRestaurantsBinding
-org/codejudge/android/di/AppModule_ProvideRestaurantRepositoryFactory.java
- org.codejudge.android.di.AppModule_ProvideRestaurantRepositoryFactory
-org/codejudge/android/DataBindingTriggerClass.java
- org.codejudge.android.DataBindingTriggerClass
-org/codejudge/android/BR.java
- org.codejudge.android.BR
-org/codejudge/android/databinding/ActivityRestaurantsBindingImpl.java
- org.codejudge.android.databinding.ActivityRestaurantsBindingImpl
-org/codejudge/android/BuildConfig.java
- org.codejudge.android.BuildConfig
-org/codejudge/android/data/api/RestaurantsRepository_Factory.java
- org.codejudge.android.data.api.RestaurantsRepository_Factory
-org/codejudge/android/di/APIServiceModule_ProvideGsonFactory.java
- org.codejudge.android.di.APIServiceModule_ProvideGsonFactory
-org/codejudge/android/di/APIServiceModule_ProvideRestaurantsAPIServiceFactory.java
- org.codejudge.android.di.APIServiceModule_ProvideRestaurantsAPIServiceFactory
-org/codejudge/android/databinding/RestaurantItemBinding.java
- org.codejudge.android.databinding.RestaurantItemBinding
-org/codejudge/android/di/APIServiceModule_ProvideLoggingInterceptorFactory.java
- org.codejudge.android.di.APIServiceModule_ProvideLoggingInterceptorFactory
-org/codejudge/android/restaurantslist/RestaurantsListViewModel_Factory.java
- org.codejudge.android.restaurantslist.RestaurantsListViewModel_Factory
-org/codejudge/android/di/APIServiceModule_ProvideGsonConverterFactoryFactory.java
- org.codejudge.android.di.APIServiceModule_ProvideGsonConverterFactoryFactory
-org/codejudge/android/restaurantslist/RestaurantsListActivity_MembersInjector.java
- org.codejudge.android.restaurantslist.RestaurantsListActivity_MembersInjector
-org/codejudge/android/di/DaggerAppComponent.java
- org.codejudge.android.di.DaggerAppComponent
- org.codejudge.android.di.DaggerAppComponent$1
- org.codejudge.android.di.DaggerAppComponent$Builder
-org/codejudge/android/DataBinderMapperImpl.java
- org.codejudge.android.DataBinderMapperImpl
- org.codejudge.android.DataBinderMapperImpl$InnerBrLookup
- org.codejudge.android.DataBinderMapperImpl$InnerLayoutIdLookup
-org/codejudge/android/databinding/RestaurantItemBindingImpl.java
- org.codejudge.android.databinding.RestaurantItemBindingImpl
+io/budge/nearbyrestaurants/databinding/ActivityRestaurantsBinding.java
+ io.budge.nearbyrestaurants.databinding.ActivityRestaurantsBinding
+io/budge/nearbyrestaurants/restaurantslist/RestaurantsListActivity_MembersInjector.java
+ io.budge.nearbyrestaurants.restaurantslist.RestaurantsListActivity_MembersInjector
+io/budge/nearbyrestaurants/restaurantslist/RestaurantsListViewModel_Factory.java
+ io.budge.nearbyrestaurants.restaurantslist.RestaurantsListViewModel_Factory
+io/budge/nearbyrestaurants/DataBindingTriggerClass.java
+ io.budge.nearbyrestaurants.DataBindingTriggerClass
+io/budge/nearbyrestaurants/di/DaggerAppComponent.java
+ io.budge.nearbyrestaurants.di.DaggerAppComponent
+ io.budge.nearbyrestaurants.di.DaggerAppComponent$1
+ io.budge.nearbyrestaurants.di.DaggerAppComponent$Builder
+io/budge/nearbyrestaurants/BuildConfig.java
+ io.budge.nearbyrestaurants.BuildConfig
+io/budge/nearbyrestaurants/BR.java
+ io.budge.nearbyrestaurants.BR
+io/budge/nearbyrestaurants/databinding/RestaurantItemBinding.java
+ io.budge.nearbyrestaurants.databinding.RestaurantItemBinding
+io/budge/nearbyrestaurants/di/APIServiceModule_ProvideRestaurantsServiceHttpClientFactory.java
+ io.budge.nearbyrestaurants.di.APIServiceModule_ProvideRestaurantsServiceHttpClientFactory
+io/budge/nearbyrestaurants/di/AppModule_ProvideRestaurantRepositoryFactory.java
+ io.budge.nearbyrestaurants.di.AppModule_ProvideRestaurantRepositoryFactory
+io/budge/nearbyrestaurants/di/AppViewModelFactory_Factory.java
+ io.budge.nearbyrestaurants.di.AppViewModelFactory_Factory
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+io/budge/nearbyrestaurants/di/APIServiceModule_ProvideRestaurantsAPIServiceFactory.java
+ io.budge.nearbyrestaurants.di.APIServiceModule_ProvideRestaurantsAPIServiceFactory

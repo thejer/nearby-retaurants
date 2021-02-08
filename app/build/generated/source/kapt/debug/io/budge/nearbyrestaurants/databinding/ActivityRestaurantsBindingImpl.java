@@ -1,15 +1,12 @@
 package io.budge.nearbyrestaurants.databinding;
-import org.budge.nearbyrestaurants.R;
+import io.budge.nearbyrestaurants.R;
 import io.budge.nearbyrestaurants.BR;
-
-import org.budge.nearbyrestaurants.databinding.ActivityRestaurantsBinding;
-
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import android.view.View;
 @SuppressWarnings("unchecked")
 @javax.annotation.Generated("Android Data Binding")
-public class ActivityRestaurantsBindingImpl extends ActivityRestaurantsBinding {
+public class ActivityRestaurantsBindingImpl extends ActivityRestaurantsBinding  {
 
     @Nullable
     private static final androidx.databinding.ViewDataBinding.IncludedLayouts sIncludes;
@@ -68,7 +65,7 @@ public class ActivityRestaurantsBindingImpl extends ActivityRestaurantsBinding {
     public boolean setVariable(int variableId, @Nullable Object variable)  {
         boolean variableSet = true;
         if (BR.viewModel == variableId) {
-            setViewModel((org.budge.nearbyrestaurants.restaurantslist.RestaurantsListViewModel) variable);
+            setViewModel((io.budge.nearbyrestaurants.restaurantslist.RestaurantsListViewModel) variable);
         }
         else {
             variableSet = false;
@@ -76,7 +73,7 @@ public class ActivityRestaurantsBindingImpl extends ActivityRestaurantsBinding {
             return variableSet;
     }
 
-    public void setViewModel(@Nullable org.budge.nearbyrestaurants.restaurantslist.RestaurantsListViewModel ViewModel) {
+    public void setViewModel(@Nullable io.budge.nearbyrestaurants.restaurantslist.RestaurantsListViewModel ViewModel) {
         this.mViewModel = ViewModel;
         synchronized(this) {
             mDirtyFlags |= 0x4L;
@@ -89,13 +86,13 @@ public class ActivityRestaurantsBindingImpl extends ActivityRestaurantsBinding {
     protected boolean onFieldChange(int localFieldId, Object object, int fieldId) {
         switch (localFieldId) {
             case 0 :
-                return onChangeViewModelRestaurants((androidx.lifecycle.LiveData<java.util.List<org.budge.nearbyrestaurants.data.model.Restaurant>>) object, fieldId);
+                return onChangeViewModelRestaurants((androidx.lifecycle.LiveData<java.util.List<io.budge.nearbyrestaurants.data.model.Restaurant>>) object, fieldId);
             case 1 :
                 return onChangeViewModelIsLoading((androidx.lifecycle.LiveData<java.lang.Boolean>) object, fieldId);
         }
         return false;
     }
-    private boolean onChangeViewModelRestaurants(androidx.lifecycle.LiveData<java.util.List<org.budge.nearbyrestaurants.data.model.Restaurant>> ViewModelRestaurants, int fieldId) {
+    private boolean onChangeViewModelRestaurants(androidx.lifecycle.LiveData<java.util.List<io.budge.nearbyrestaurants.data.model.Restaurant>> ViewModelRestaurants, int fieldId) {
         if (fieldId == BR._all) {
             synchronized(this) {
                     mDirtyFlags |= 0x1L;
@@ -121,11 +118,11 @@ public class ActivityRestaurantsBindingImpl extends ActivityRestaurantsBinding {
             dirtyFlags = mDirtyFlags;
             mDirtyFlags = 0;
         }
-        androidx.lifecycle.LiveData<java.util.List<org.budge.nearbyrestaurants.data.model.Restaurant>> viewModelRestaurants = null;
+        androidx.lifecycle.LiveData<java.util.List<io.budge.nearbyrestaurants.data.model.Restaurant>> viewModelRestaurants = null;
         boolean androidxDatabindingViewDataBindingSafeUnboxViewModelIsLoadingGetValue = false;
-        java.util.List<org.budge.nearbyrestaurants.data.model.Restaurant> viewModelRestaurantsGetValue = null;
+        java.util.List<io.budge.nearbyrestaurants.data.model.Restaurant> viewModelRestaurantsGetValue = null;
         androidx.lifecycle.LiveData<java.lang.Boolean> viewModelIsLoading = null;
-        org.budge.nearbyrestaurants.restaurantslist.RestaurantsListViewModel viewModel = mViewModel;
+        io.budge.nearbyrestaurants.restaurantslist.RestaurantsListViewModel viewModel = mViewModel;
         java.lang.Boolean viewModelIsLoadingGetValue = null;
 
         if ((dirtyFlags & 0xfL) != 0) {
@@ -168,12 +165,12 @@ public class ActivityRestaurantsBindingImpl extends ActivityRestaurantsBinding {
         if ((dirtyFlags & 0xeL) != 0) {
             // api target 1
 
-            org.budge.nearbyrestaurants.utils.BindingAdapterKt.bindLoadingIndicator(this.progressbar, androidxDatabindingViewDataBindingSafeUnboxViewModelIsLoadingGetValue);
+            io.budge.nearbyrestaurants.utils.BindingAdapterKt.bindLoadingIndicator(this.progressbar, androidxDatabindingViewDataBindingSafeUnboxViewModelIsLoadingGetValue);
         }
         if ((dirtyFlags & 0xdL) != 0) {
             // api target 1
 
-            org.budge.nearbyrestaurants.utils.BindingAdapterKt.bindRestaurants(this.restaurantsRecyclerview, viewModelRestaurantsGetValue);
+            io.budge.nearbyrestaurants.utils.BindingAdapterKt.bindRestaurants(this.restaurantsRecyclerview, viewModelRestaurantsGetValue);
         }
     }
     // Listener Stub Implementations

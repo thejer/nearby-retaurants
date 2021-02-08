@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:dist="http://schemas.android.com/apk/distribution"
-    package="org.codejudge.android"
+    package="io.budge.nearbyrestaurants"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -14,7 +14,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name="org.codejudge.android.App"
+        android:name="io.budge.nearbyrestaurants.App"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -24,7 +24,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="org.codejudge.android.restaurantslist.RestaurantsListActivity" >
+        <activity android:name="io.budge.nearbyrestaurants.restaurantslist.RestaurantsListActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -34,7 +34,7 @@
 
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="org.codejudge.android.lifecycle-process"
+            android:authorities="io.budge.nearbyrestaurants.lifecycle-process"
             android:exported="false"
             android:multiprocess="true" />
     </application>

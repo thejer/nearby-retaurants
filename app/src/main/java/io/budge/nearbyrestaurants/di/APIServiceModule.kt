@@ -4,6 +4,7 @@ import com.google.gson.Gson
 import dagger.Lazy
 import dagger.Module
 import dagger.Provides
+import io.budge.nearbyrestaurants.BuildConfig
 import io.budge.nearbyrestaurants.data.api.RestaurantsApiService
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -66,7 +67,7 @@ class APIServiceModule {
     @Singleton
     fun provideLoggingInterceptor(): HttpLoggingInterceptor =
             HttpLoggingInterceptor().apply {
-                level = if (_root_ide_package_.io.budge.nearbyrestaurants.BuildConfig.DEBUG) {
+                level = if (BuildConfig.DEBUG) {
                     HttpLoggingInterceptor.Level.BODY
                 } else {
                     HttpLoggingInterceptor.Level.NONE

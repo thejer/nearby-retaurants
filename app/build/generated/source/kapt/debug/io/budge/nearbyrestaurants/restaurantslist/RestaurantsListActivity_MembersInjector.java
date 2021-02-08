@@ -31,7 +31,7 @@ public final class RestaurantsListActivity_MembersInjector implements MembersInj
     injectViewModelFactory(instance, viewModelFactoryProvider.get());
   }
 
-  @InjectedFieldSignature("org.codejudge.android.restaurantslist.RestaurantsListActivity.viewModelFactory")
+  @InjectedFieldSignature("io.budge.nearbyrestaurants.restaurantslist.RestaurantsListActivity.viewModelFactory")
   public static void injectViewModelFactory(RestaurantsListActivity instance,
       ViewModelProvider.Factory viewModelFactory) {
     instance.viewModelFactory = viewModelFactory;
